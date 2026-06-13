@@ -1,0 +1,83 @@
+/* Cкопіюй код з минулого уроку */
+/* Базові налаштування */
+
+body {
+    font-family: 'Tiny5', sans-serif;
+    background-color: #1e9422;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+text-align: center;
+ background-image: url('https://i.pinimg.com/1200x/24/b4/a1/24b4a1a3db937ab7254575f70922a103.jpg');   
+font-size: 25px;
+    
+}
+
+#answers-container{
+  display:flex; 
+flex-wrap:wrap;
+gap: 10px;    
+justify-content:center;
+    
+}
+.answer-btn{
+padding: 10px 15px;
+border-radius: 5px;
+cursor: pointer;
+width: 48%;
+
+}
+.hide{
+display: none;
+}
+.correct{
+background: linear-gradient(2deg,rgba(23, 82, 21, 1) 30%, rgba(111, 237, 83, 1) 85%);
+color:white;
+    
+}
+.wrong{
+ background: linear-gradient(2deg,rgba(179, 43, 43, 1) 30%, rgba(237, 88, 83, 1) 85%);
+color:white;
+}
+#start-btn,
+#restart-btn {
+padding: 10px 20px;
+border-radius: 5px;
+color:white;
+cursor:pointer;
+ background-color: #075c0a;   
+}
+.header{
+  display: flex;  
+  justify-content: space-between;
+align-items:center;
+margin-bottom: 20px;
+border: Black 10px;
+background-color: #1f5417;
+border-radius: 9px;
+color:white;
+ padding: 10px;  
+}
+.h2{
+background-color: #1f5417;
+    
+}
+.answer-btn{
+background-color: #1f5417; 
+    
+}
+#question{
+font-size: 25px;   
+    
+    
+}
+
+    
+    
+    
+
+    
+    
